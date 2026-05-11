@@ -1,0 +1,30 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Model checkpoints (large binary files)
+checkpoints/
+
+# Cache files (large binary)
+cache/*.pkl
+cache/*.pt
+
+# Dataset MIDI files (very large)
+maestro-v3.0.0/
+
+# Logs (optional - comment out if you want to keep logs)
+# logs/
+
+# Virtual environments
+venv/
+env/
+.env/
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
